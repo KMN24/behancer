@@ -16,7 +16,6 @@ import java.io.Serializable;
         parentColumns = "id",
         childColumns = "project_id"
 ))
-
 public class Cover implements Serializable {
 
     @PrimaryKey
