@@ -2,9 +2,9 @@ package com.elegion.test.behancer.common;
 
 public interface BaseView {
 
-    void showLoading();
+    void showRefresh();
 
-    void hideLoading();
+    void hideRefresh();
 
     void showError();
 }
